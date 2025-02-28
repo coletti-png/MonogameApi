@@ -1,0 +1,16 @@
+const mongoose = require("mongoose");
+
+//#region Player Schema
+const playerSchema = new mongoose.Schema({
+    playerid:{ type: String, unique:true},
+    ScreenName:{ type: String, required:true},
+    Firstname:String,
+    LastName:String,
+    DateStartedPlaying:Date,
+    Score:{ type:Number, default:0}
+})
+//#endregion
+
+const Player = mongoose.model("Player", playerSchema);
+
+module.exports = Player
