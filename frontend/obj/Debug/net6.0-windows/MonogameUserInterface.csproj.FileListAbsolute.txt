@@ -44,3 +44,4 @@ c:\MonogameApi\frontend\bin\Debug\net6.0-windows\MongoDB.Driver.dll
 c:\MonogameApi\frontend\bin\Debug\net6.0-windows\SharpCompress.dll
 c:\MonogameApi\frontend\bin\Debug\net6.0-windows\Snappier.dll
 c:\MonogameApi\frontend\bin\Debug\net6.0-windows\ZstdSharp.dll
+c:\MonogameApi\frontend\obj\Debug\net6.0-windows\MonogameUserInterface.sourcelink.json

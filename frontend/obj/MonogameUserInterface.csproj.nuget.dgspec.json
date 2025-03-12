@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\MonogameApi\\frontend\\MonogameUserInterface.csproj": {}
+    "c:\\MonogameApi\\frontend\\MonogameUserInterface.csproj": {}
   },
   "projects": {
-    "C:\\MonogameApi\\frontend\\MonogameUserInterface.csproj": {
+    "c:\\MonogameApi\\frontend\\MonogameUserInterface.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\MonogameApi\\frontend\\MonogameUserInterface.csproj",
+        "projectUniqueName": "c:\\MonogameApi\\frontend\\MonogameUserInterface.csproj",
         "projectName": "MonogameUserInterface",
-        "projectPath": "C:\\MonogameApi\\frontend\\MonogameUserInterface.csproj",
+        "projectPath": "c:\\MonogameApi\\frontend\\MonogameUserInterface.csproj",
         "packagesPath": "C:\\Users\\Ty\\.nuget\\packages\\",
-        "outputPath": "C:\\MonogameApi\\frontend\\obj\\",
+        "outputPath": "c:\\MonogameApi\\frontend\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

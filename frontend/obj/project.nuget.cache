@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "vlguorLpUSw=",
+  "dgSpecHash": "XmbOxrETShg=",
   "success": true,
-  "projectFilePath": "C:\\MonogameApi\\frontend\\MonogameUserInterface.csproj",
+  "projectFilePath": "c:\\MonogameApi\\frontend\\MonogameUserInterface.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Ty\\.nuget\\packages\\dnsclient\\1.6.1\\dnsclient.1.6.1.nupkg.sha512",
     "C:\\Users\\Ty\\.nuget\\packages\\libuv\\1.9.1\\libuv.1.9.1.nupkg.sha512",
