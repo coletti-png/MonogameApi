@@ -4,9 +4,11 @@
   <Platform>Windows</Platform>
   <Config />
   <SourceFiles>
-    <File>c:/MonogameApi/frontend/Content/Font.spritefont</File>
+    <File>C:/MonogameApi/frontend/Content/Font.spritefont</File>
+    <File>C:/MonogameApi/frontend/Content/TileSet.png</File>
   </SourceFiles>
   <DestFiles>
+    <File xsi:nil="true" />
     <File xsi:nil="true" />
   </DestFiles>
 </SourceFileCollection>

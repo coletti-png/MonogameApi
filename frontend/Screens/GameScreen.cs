@@ -1,25 +1,25 @@
 ﻿using Microsoft.Xna.Framework;
-using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Content;
+using Microsoft.Xna.Framework.Graphics;
+using Microsoft.Xna.Framework.Input;
 
-
-namespace MonogameUserInterface.Screens
+public abstract class GameScreen
 {
-    public abstract class GameScreen
+    protected GraphicsDevice GraphicsDevice;
+    protected ContentManager Content;
+    protected SpriteFont Font;
+
+    public GameScreen(GraphicsDevice graphicsDevice, ContentManager content)
     {
-        protected GraphicsDevice GraphicsDevice;
-        protected ContentManager Content;
-
-        public GameScreen(GraphicsDevice graphicsDevice, ContentManager content)
-        {
-            this.GraphicsDevice = graphicsDevice;
-            this.Content = content;
-        }
-        
-        public abstract void LoadContent();
-
-        public abstract void Update(GameTime gameTime);
-
-        public abstract void Draw(SpriteBatch spriteBatch);
+        GraphicsDevice = graphicsDevice;
+        Content = content;
     }
+
+    public virtual void LoadContent()
+    {
+        Font = Content.Load<SpriteFont>("Font"); 
+    }
+
+    public abstract void Update(GameTime gameTime);
+    public abstract void Draw(SpriteBatch spriteBatch);
 }
