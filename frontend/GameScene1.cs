@@ -14,7 +14,6 @@ public class GameScene1 : GameSceneBase
 
     public override void Update(GameTime gameTime)
     {
-        // Add specific logic if needed
     }
 
     public override void Draw()
